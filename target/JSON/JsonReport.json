@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-13T10:32:11.656Z",
+        "line": 3,
+        "name": "To validate adding and removing products in add to cart",
+        "description": "",
+        "id": "to-validate-add-to-cart-feature;to-validate-adding-and-removing-products-in-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6971995900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to launch the browser and flipkart application",
+            "match": {
+              "location": "ProductAddAndRemove.user_has_to_launch_the_browser_and_flipkart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 480606100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to search the product through search box",
+            "match": {
+              "location": "ProductAddAndRemove.user_has_to_search_the_product_through_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5168563000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to select and adding product into cart",
+            "match": {
+              "location": "ProductAddAndRemove.user_has_to_select_and_adding_product_into_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User has to place order and login to the application",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User has to close the browser",
+            "match": {
+              "location": "ProductAddAndRemove.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Add To Cart Feature",
+    "description": "",
+    "id": "to-validate-add-to-cart-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Product.feature",
+    "tags": []
+  }
+]
